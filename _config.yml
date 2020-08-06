@@ -99,4 +99,4 @@ page_gen:
     title: "product_name"
     dir: "products"
 
-theme: jekyll-theme-minimal
+theme: minima
