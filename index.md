@@ -6,8 +6,8 @@
   <body>
     {% for product in site.data.products %}
     <h2>
-      <a href="{{ product.url }}">
-        {{ product.name }} - {{ product.product_id }}
+      <a href="{{ product.product_name | datapage_url: 'products' }}">
+        {{ product.product_name }}
       </a>
     </h2>
     <p>{{ product.content | markdownify }}</p>

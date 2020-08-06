@@ -44,7 +44,8 @@ unpublished: false
 
 # Plugins
 whitelist: []
-plugins: []
+plugins:
+  - jekyll-datapage-generator
 
 # Conversion
 markdown: kramdown
@@ -90,3 +91,12 @@ kramdown:
   hard_wrap: false
   footnote_nr: 1
   show_warnings: false
+
+page_gen:
+  - data: "products"
+    template: "product_page"
+    name: "product_name"
+    title: "product_name"
+    dir: "products"
+
+theme: minima
