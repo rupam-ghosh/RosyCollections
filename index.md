@@ -6,7 +6,7 @@
   <body>
     {% for product in site.data.products %}
     <h2>
-      <a href="{{ product.product_name | datapage_url: 'products' }}">
+      <a href="products/{{ product.product_name | downcase | replace: " ", "-"}}.html">
         {{ product.product_name }}
       </a>
     </h2>
