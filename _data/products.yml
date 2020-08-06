@@ -1,0 +1,11 @@
+- name: Green Jewellery 1
+  product_id: 1
+  product_image_name: 1.jpg
+
+- name: Green Jewellery 2
+  product_id: 2
+  product_image_name: 2.jpg
+
+- name: Green Jewellery
+  product_id: 2
+  product_image_name: 2.jpg
